@@ -1,7 +1,7 @@
 {
     "friendlyName" : "Payment in full or partial",
     "logQueries" : true,
-    "uniqueName" : "Payment-Type",
+    "uniqueName" : "Payment-Type-V2",
     "defaults" : {
         "defaults" : {
             "assistant_initiation" : "task://greeting",
