@@ -60,7 +60,7 @@ exports.yes_no = async function (context, event, callback) {
           Say = false;
           Redirect = 'task://agent_transfer';
           Remember.question = "";
-          Remember.payment_type = 'Nothing Select';
+          Remember.payment_type = '4';
           break;
 
         } else {

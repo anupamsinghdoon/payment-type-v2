@@ -15,11 +15,11 @@ exports.payment_full = async function (context, event, callback) {
 
     Remember.repeat = false;
     Remember.question = "payment_full";
-    Remember.payment_type = 'full';
+    Remember.payment_type = 1;
     Remember.task_fail_counter = 0;
     //Say = "Are you able to pay balance in full, say yes or No. you can also press 1 for yes and 2 for no.";
     //Redirect="task://payment_full";
-    Remember.payment_type = 'full';
+    
     Remember.payment_amount = Memory.userTotalBalance;
     Say = "you have selected full amount of $" + Memory.userTotalBalance;
     Listen = false;

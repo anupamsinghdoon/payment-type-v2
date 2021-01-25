@@ -15,7 +15,7 @@ exports.arrangement_yes_no = async function (context, event, callback) {
 
     Remember.repeat = false;
     //Remember.question="payment_arrangement";
-    Remember.payment_type = 'arrangement';
+    Remember.payment_type = 3;
 
     Say = `Do you want to make a payment arrangement, say yes or No. you can also press 1 for yes and 2 for no.`;
     Listen = {

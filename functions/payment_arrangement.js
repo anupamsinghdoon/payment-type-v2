@@ -13,7 +13,7 @@ exports.payment_arrangement = async function (context, event, callback) {
 
     const Memory = JSON.parse(event.Memory);
     Remember.repeat = false;
-    Remember.payment_type = 'arrangement';
+    Remember.payment_type = 3;
     Say = false;
 
     //End of your code.
