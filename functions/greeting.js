@@ -15,6 +15,7 @@ exports.greeting = async function (context, event, callback) {
 
     Remember.repeat = false;
     Remember.transfer_agent = false;
+    Remember.from_task='greeting';
     // this update from VS code.
     // const payment_type = event.Field_payment_type_Value;
 
