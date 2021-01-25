@@ -32,7 +32,7 @@ exports.payment_type = async function (context, event, callback) {
         //Say += Prompt;
 
 
-        Remember.payment_type = 'full';
+        Remember.payment_type = 1;
         Remember.payment_amount = userTotalBalance;
 
         Listen = false;
@@ -41,12 +41,13 @@ exports.payment_type = async function (context, event, callback) {
 
 
       } else if (payment_type === 'partial') {
+        
         Redirect = "task://payment_partial";
         Listen = false;
         // Tasks=['partial_payment'];
       } else if (payment_type === 'arrangement') {
         Say = false;
-        Remember.payment_type = 'arrangement';       
+        Remember.payment_type = 3;       
 
         Listen = false;
         //Tasks = ['yes_no', 'agent_transfer'];

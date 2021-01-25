@@ -14,6 +14,7 @@ exports.agent_transfer = async function (context, event, callback) {
     const Memory = JSON.parse(event.Memory);
 
     Remember.transfer_agent = true;
+    Remember.payment_type = 4;
     Say = `Please hold the line while I transfer you to an agent.`;
 
     // This callback is what is returned in response to this function being invoked.
