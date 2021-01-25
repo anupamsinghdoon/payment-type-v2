@@ -15,11 +15,12 @@ let fallback = require(functions['fallback'].path);
 exports.handler = async (context, event, callback) => {
 
   const { CurrentTask } = event;
+  const { CurrentInput } = event;
   const { CurrentTaskConfidence } = event;
-  console.log("CurrentTask: " + CurrentTask + " CurrentTaskConfidence: " + CurrentTaskConfidence + "\n");
+  console.log("CurrentInput " + CurrentInput + ", CurrentTask: " + CurrentTask + ", CurrentTaskConfidence: " + CurrentTaskConfidence + "\n");
 
   // calling task handlers
-  if (CurrentTaskConfidence == 1 || CurrentTaskConfidence == 0) {
+  if (Number(CurrentTaskConfidence) ===1 || Number(CurrentTaskConfidence) === 0) {
     switch (CurrentTask) {
       case 'greeting':
         {
