@@ -15,7 +15,7 @@ exports.payment_partial = async function (context, event, callback) {
 
     Remember.repeat = false;
     Remember.userTotalBalance = Memory.userTotalBalance;
-    Remember.payment_type = 'partial';
+    Remember.payment_type = 2;
     Remember.from_task = "payment_partial";
 
     let collect_question="Please tell me the amount you want to pay."; // Default 

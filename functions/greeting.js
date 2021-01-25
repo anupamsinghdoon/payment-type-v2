@@ -29,7 +29,7 @@ exports.greeting = async function (context, event, callback) {
     //Redirect = 'task://payment_full';
     Say = `To pay your full balance of $${userTotalBalance} say full or press 1, or,
             to make a payment less than $${userTotalBalance} say partial or press 2, 
-            to make a payment arranagement say arrangement or press 3.`;
+            to make a payment arrangement say arrangement or press 3.`;
     Listen = {
       "voice_digits": {
         "num_digits": 1,
