@@ -21,7 +21,7 @@ exports.payment_full = async function (context, event, callback) {
     //Redirect="task://payment_full";
     
     Remember.payment_amount = Memory.userTotalBalance;
-    Say = "you have selected full amount of $" + Memory.userTotalBalance;
+    Say = "You have selected to pay your full balance.";
     Listen = false;
     // Listen = {
     //   "voice_digits": {

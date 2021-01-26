@@ -26,7 +26,7 @@ exports.payment_type = async function (context, event, callback) {
     if (payment_type) {
       if (payment_type === 'full') {
 
-        Say = `you have selected the amount of $ ${userTotalBalance}. `;
+        Say = `You have selected to pay your full balance.`;
         //Prompt = `Please tell me the payment Method now.`;
 
         //Say += Prompt;
