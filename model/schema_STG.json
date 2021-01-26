@@ -606,7 +606,48 @@
                 ]
             },
             "fields" : [],
-            "samples" : []
+            "samples" : [
+                {
+                    "language" : "en-US",
+                    "taggedText" : "full payment"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "full"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "balance in full"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "full balance"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "payment in full"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "full amount"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to pay full amount"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I want to pay full balance"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I prefer to go full balance"
+                },
+                {
+                    "language" : "en-US",
+                    "taggedText" : "I prefer to go full Amount"
+                }
+            ]
         },
         {
             "uniqueName" : "payment_partial",
