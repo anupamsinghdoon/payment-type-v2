@@ -144,7 +144,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -197,7 +197,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -250,7 +250,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -320,7 +320,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -332,7 +332,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -394,7 +394,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -460,7 +460,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -548,7 +548,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -560,7 +560,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -572,7 +572,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
@@ -678,7 +678,7 @@
             "actions" : {
                 "actions" : [
                     {
-                        "redirect" : "https://payment-type-v2-7733.twil.io/index"
+                        "redirect" : "https://payment-type-v2-7733-dev.twil.io/index"
                     }
                 ]
             },
